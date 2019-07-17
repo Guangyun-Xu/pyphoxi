@@ -1,0 +1,39 @@
+The camera matrix is the following:
+
+2266.27
+0
+1038.02
+0
+2267.04
+788.761
+0
+0
+1
+
+
+The distortion coefficients are the following:
+
+-0.121664
+0.181742
+7.33391e-05
+-7.07204e-05
+-0.048953
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+pixel size:
+
+0.0034499999999999999
+
+
+focal length:
+
+7.81995974999999977333
