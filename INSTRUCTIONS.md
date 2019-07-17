@@ -1,5 +1,11 @@
 ## Compilation
 
+0. Install the python wrapper.
+
+```python
+pip install -e .
+```
+
 1. Download `PhoXiControl` from Photoneo's [3D Scanning Software](https://www.photoneo.com/3d-scanning-software/).
 
 2. Unpack the downloaded `.tar` file

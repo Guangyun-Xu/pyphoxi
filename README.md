@@ -18,7 +18,7 @@ cd scripts
 ./run.sh
 ```
 
-Vizualize an RGB-D feed in `opencv``:
+Vizualize an RGB-D feed in `opencv`:
 
 ```python
 python view_feed.py 127.0.0.1 50200

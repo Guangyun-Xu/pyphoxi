@@ -5,7 +5,7 @@ import cv2
 import matplotlib.cm as cm
 import numpy as np
 
-from phoxi import PhoXiSensor
+from pyphoxi import PhoXiSensor
 
 
 # https://stackoverflow.com/questions/33322488/how-to-change-image-illumination-in-opencv-python
@@ -41,7 +41,6 @@ if __name__ == "__main__":
             fps = 1000 * (frame_id - frame_id_prev) / (timestamp_curr - timestamp_prev)
             timestamp_prev = timestamp_curr
             frame_id_prev = frame_id
-            print(fps)
         color_im_cm = np.repeat(gray_im[..., np.newaxis], 3, axis=-1)
         depth_im_cm = (depth_im - depth_im.min()) / (depth_im.max() - depth_im.min())
         depth_im_cm = cm.viridis(depth_im_cm, bytes=True)[..., :3]
