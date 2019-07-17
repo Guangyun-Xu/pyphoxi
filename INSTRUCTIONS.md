@@ -19,9 +19,9 @@ tar -xvf PhotoneoPhoXiControlInstaller-1.2.7-Ubuntu16.tar
 ```bash
 chmod +x PhotoneoPhoXiControlInstaller-1.2.7-Ubuntu16-STABLE.run
 ./PhotoneoPhoXiControlInstaller-1.2.7-Ubuntu16-STABLE.run
+```
 
-Note that `PhotoNeo` code is located at `/opt/PhotoneoPhoXiControl/API`.
-
+Note that the `PhotoNeo` API code is located at `/opt/PhotoneoPhoXiControl/API`.
 
 4. Restart your computer
 
