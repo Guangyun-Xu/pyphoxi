@@ -71,7 +71,7 @@ class PhoXiSensor(object):
         self._tcp_socket.settimeout(None)
 
     def _get_factory_intrinsics_distortion(self):
-        """Reads the intrinsics from the generated .txt file.
+        """Reads factory intrinsics and distortion from the generated .txt file.
         """
         filename = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'intrinsic_parameters.txt')
         with open(filename) as f:
